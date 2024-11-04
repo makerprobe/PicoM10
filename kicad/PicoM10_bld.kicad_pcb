@@ -5141,12 +5141,12 @@
 		(layer "Dwgs.User")
 		(uuid "0859571d-9880-4eb3-bafc-6ffcbf3e2392")
 		(pts
-			(xy 100 110) (xy 107.8 110)
+			(xy 100 110) (xy 108 110)
 		)
 		(height 2.75)
 		(orientation 0)
-		(gr_text "7.80 mm"
-			(at 103.9 111.6 0)
+		(gr_text "8.00 mm"
+			(at 104 111.6 0)
 			(layer "Dwgs.User")
 			(uuid "0859571d-9880-4eb3-bafc-6ffcbf3e2392")
 			(effects
