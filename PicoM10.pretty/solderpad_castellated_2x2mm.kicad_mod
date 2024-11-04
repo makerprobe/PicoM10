@@ -1,0 +1,103 @@
+(footprint "solderpad_castellated_2x2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8feb193f-5424-4000-a06f-c99cfaf9add7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "solderpad_castellated_2x2mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5897c12e-a6a2-4682-848c-caf53a951e1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a32e1743-e390-46f3-b897-fcbccd48adcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c470f7b0-e16f-453c-beff-7d5cf438149d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25f454b0-f0c0-4b93-ae37-d704a78f1524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22fb6d3b-d303-490f-9522-f36864de66ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5382f806-6306-4103-8987-43927d1fab0a")
+	)
+	(pad "1" smd roundrect
+		(at 0.75 0)
+		(size 1.5 2)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "8a674a76-8122-4822-804e-92ed7725b9ce")
+	)
+	(pad "1" smd roundrect
+		(at 1 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "10c9df42-0510-4ad2-9f69-bcf6cd3b8a0b")
+	)
+)
