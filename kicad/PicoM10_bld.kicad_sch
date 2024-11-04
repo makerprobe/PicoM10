@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "9c1280db-599a-4b02-ad26-5acb79e8d379")
 	(paper "A4")
+	(title_block
+		(title "Pico-M10")
+		(date "2024-11-04")
+		(rev "0.1 draft")
+		(company "MakerProbe - Christoph Redecker")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
