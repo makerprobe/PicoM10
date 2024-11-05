@@ -4060,6 +4060,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76d46554-1487-4045-b85e-9466b8be7d59")
 		)
@@ -4122,6 +4131,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME1D"
 			(at 39.37 160.02 0)
 			(effects
 				(font
@@ -4332,6 +4350,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "639d277e-9daf-4134-a716-b1534b680a61")
 		)
@@ -4403,6 +4430,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CONMHF1-SMD-G-T"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "515ca12a-129c-4ac1-a98c-23c0b5b4a81b")
 		)
@@ -4465,6 +4501,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MIA-M10Q"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -4697,6 +4742,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90bbb035-acab-4617-b3eb-b150781e7067")
 		)
@@ -4717,7 +4771,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4223c9e3-47fd-4d4d-865e-1e92ec466a1b")
 		(property "Reference" "C3"
 			(at 31.75 158.7562 0)
@@ -4762,6 +4815,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME1D"
+			(at 40.64 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4919,7 +4980,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "491e6b1e-8d79-4efe-ad48-59f6764c9a82")
 		(property "Reference" "C6"
 			(at 77.47 157.8609 0)
@@ -4964,6 +5024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "T520A107M06ATE045 "
+			(at 78.486 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5102,6 +5170,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb3f087d-4aa3-468a-956e-a3a60a95cc26")
 		)
@@ -5165,6 +5242,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 34.29 92.71 0)
 			(effects
 				(font
@@ -5663,7 +5749,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP160xMX"
+		(property "Value" "NCP160AMX330TBG"
 			(at 48.26 39.37 0)
 			(effects
 				(font
@@ -5690,6 +5776,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCP160AMX330TBG"
 			(at 48.26 48.26 0)
 			(effects
 				(font
@@ -5835,6 +5930,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME1D"
 			(at 27.94 49.53 0)
 			(effects
 				(font
@@ -6047,6 +6151,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05233f05-47ff-41c0-aee4-72fcb2a0b43a")
 		)
@@ -6239,6 +6352,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 34.29 86.36 0)
 			(effects
 				(font
@@ -6512,6 +6634,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM155R61A106ME1D"
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9edf3fde-a5ee-49f6-ab0a-b464b36abc49")
 		)
@@ -6574,6 +6705,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME1D"
 			(at 59.69 160.02 0)
 			(effects
 				(font
@@ -6718,6 +6858,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fefec08-41ce-425e-92f8-76214c6145f8")
 		)
@@ -6778,6 +6927,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -6923,6 +7081,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fa5ad4d-9926-46e8-9891-eead670842db")
 		)
@@ -6983,6 +7150,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 54.61 87.63 0)
 			(effects
 				(font
