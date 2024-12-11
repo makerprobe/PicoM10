@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Pico-M10")
-		(date "2024-11-04")
-		(rev "0.1 draft")
+		(date "2024-12-11")
+		(rev "0.2 draft")
 		(company "MakerProbe - Christoph Redecker")
 	)
 	(lib_symbols
@@ -714,6 +714,151 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_TVS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2724,7 +2869,7 @@
 		(uuid "444ae5db-adb8-422b-a247-5d683e875a92")
 	)
 	(junction
-		(at 116.84 74.93)
+		(at 111.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4703c79d-8ede-4391-a1ab-bee354454353")
@@ -2784,10 +2929,16 @@
 		(uuid "7b128e36-499b-4fc3-9008-6efc889ae8a2")
 	)
 	(junction
-		(at 134.62 74.93)
+		(at 129.54 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "822905c3-59ca-4b2e-bc90-6a45a0892c55")
+	)
+	(junction
+		(at 140.97 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ad1683e-20ab-44c5-9f52-566752237e86")
 	)
 	(junction
 		(at 193.04 113.03)
@@ -2945,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 134.62 77.47)
+			(xy 129.54 74.93) (xy 129.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 116.84 77.47)
+			(xy 111.76 74.93) (xy 111.76 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3386,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 123.19 74.93)
+			(xy 140.97 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b42cad-bb7a-40cf-99a5-3473a7b04892")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 116.84 74.93)
+			(xy 104.14 74.93) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 134.62 74.93)
+			(xy 123.19 74.93) (xy 129.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 153.67 74.93)
+			(xy 129.54 74.93) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3712,6 +3873,16 @@
 			(type default)
 		)
 		(uuid "de924c9c-76c9-4354-816d-a433279e05b6")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.93) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e528bf35-bfef-4470-985e-07402efe40bd")
 	)
 	(wire
 		(pts
@@ -4009,7 +4180,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 125.73 74.93 90)
+		(at 120.65 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4018,7 +4189,7 @@
 		(fields_autoplaced yes)
 		(uuid "046ec3a7-378a-4130-8234-e4302e7afe36")
 		(property "Reference" "C7"
-			(at 125.7363 68.58 90)
+			(at 120.6563 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4197,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 125.7363 71.12 90)
+			(at 120.6563 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4205,7 @@
 			)
 		)
 		(property "Footprint" "PicoM10:C_0201_0603Metric_mod"
-			(at 125.73 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4223,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 125.73 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +4232,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 125.73 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4547,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 104.14 74.93 0)
+		(at 99.06 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4386,7 +4557,7 @@
 		(fields_autoplaced yes)
 		(uuid "22e669a1-8159-44b1-b929-f14af285f323")
 		(property "Reference" "J1"
-			(at 100.33 73.9531 0)
+			(at 95.25 73.9531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4566,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 100.33 76.4931 0)
+			(at 95.25 76.4931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4575,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
-			(at 104.14 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4593,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 104.14 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4602,7 @@
 			)
 		)
 		(property "MPN" "CONMHF1-SMD-G-T"
-			(at 104.14 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 134.62 80.01 0)
+		(at 129.54 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5126,7 +5297,7 @@
 		(fields_autoplaced yes)
 		(uuid "54467523-5534-4920-8a91-5f5929bc021c")
 		(property "Reference" "L1"
-			(at 135.89 78.7399 0)
+			(at 130.81 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5306,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 135.89 81.2799 0)
+			(at 130.81 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" "PicoM10:C_0201_0603Metric_mod"
-			(at 134.62 80.01 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 80.01 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5333,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 134.62 80.01 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5342,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 134.62 80.01 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 82.55 0)
+		(at 111.76 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5414,7 +5585,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f19c9f-fa34-48ef-b290-c83a4ef02009")
 		(property "Reference" "#PWR024"
-			(at 116.84 88.9 0)
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 87.63 0)
+			(at 111.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 82.55 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 82.55 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 82.55 0)
+			(at 111.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 80.01 0)
+		(at 99.06 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5974,7 +6145,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c40270d-c717-441f-bc46-e3fc63f9ff3d")
 		(property "Reference" "#PWR04"
-			(at 104.14 86.36 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +6180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,6 +6470,76 @@
 			(project "PicoM10_bld"
 				(path "/9c1280db-599a-4b02-ad26-5acb79e8d379"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 140.97 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdddbb42-4bcc-4bf9-a2b1-73ae9d129eba")
+		(property "Reference" "D3"
+			(at 143.51 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 143.51 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214c7db9-cd7c-4ffc-8bf7-6c2f46a85d3c")
+		)
+		(pin "2"
+			(uuid "05c76b87-9b3f-49ae-854a-2737c46aba16")
+		)
+		(instances
+			(project ""
+				(path "/9c1280db-599a-4b02-ad26-5acb79e8d379"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6805,7 +7046,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 116.84 80.01 0)
+		(at 111.76 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6814,7 +7055,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1f7278a-457f-45ea-a067-de7454d8e0b1")
 		(property "Reference" "L2"
-			(at 118.11 78.7399 0)
+			(at 113.03 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +7064,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 118.11 81.2799 0)
+			(at 113.03 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +7073,7 @@
 			)
 		)
 		(property "Footprint" "PicoM10:C_0201_0603Metric_mod"
-			(at 116.84 80.01 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +7082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 80.01 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +7091,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 116.84 80.01 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +7100,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 116.84 80.01 0)
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +7202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 82.55 0)
+		(at 129.54 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6971,7 +7212,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5996808-c48c-4f45-9dc2-353ad872d899")
 		(property "Reference" "#PWR023"
-			(at 134.62 88.9 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +7221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 87.63 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 82.55 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 82.55 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 82.55 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,6 +7418,73 @@
 			(project ""
 				(path "/9c1280db-599a-4b02-ad26-5acb79e8d379"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb154d69-e3e7-4774-8e4f-116ecc013721")
+		(property "Reference" "#PWR025"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c867fadc-6bf0-4c54-a38a-e67f9d14102f")
+		)
+		(instances
+			(project "PicoM10_bld"
+				(path "/9c1280db-599a-4b02-ad26-5acb79e8d379"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
